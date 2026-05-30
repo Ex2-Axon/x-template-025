@@ -1,0 +1,186 @@
+You are building a daily UI project. Below is the theme specification for today.
+
+## Theme Context (daily-context.json)
+```json
+{
+  "day": 25,
+  "date": "2026-05-30",
+  "version": "1.25.0",
+  "project_name": "x-template-025",
+  "theme": {
+    "name": "Concrete Canvas",
+    "style": "Brutalist, Material-Dark, Swiss Design",
+    "mood": "solid, robust, structured, clear"
+  },
+  "palette": {
+    "background": "#1A1A1A",
+    "surface": "#2C2C2C",
+    "primary": "#4A6D7C",
+    "accent": "#D9A273",
+    "text": "#E0E0E0",
+    "muted": "#808080"
+  },
+  "typography": {
+    "heading": "Oswald",
+    "body": "Inter",
+    "size": "medium"
+  },
+  "layout": {
+    "structure": "grid",
+    "density": "spacious",
+    "border_style": "solid 2px #808080"
+  },
+  "animation": {
+    "level": "minimal",
+    "style": "subtle fade and slide"
+  },
+  "components": {
+    "hero_text": "SOLID FOUNDATION",
+    "subtitle": "A robust and clear design framework.",
+    "button_label": "VIEW STRUCTURE",
+    "badge_text": "NEW STANDARD"
+  },
+  "commit_message": "feat: UI Day 25 — Concrete Canvas",
+  "source": "gemini-key1",
+  "selected_component": {
+    "category": "Buttons",
+    "component": "vinodjangid07_helpless-starfish-55.html",
+    "path": "C:\\Users\\User\\Documents\\GitHub\\Axon\\x-components\\Buttons\\vinodjangid07_helpless-starfish-55.html",
+    "content": "<button class=\"appstore-button\">\n  <svg viewBox=\"0 0 24 24\">\n    <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g>\n    <g\n      id=\"SVGRepo_tracerCarrier\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n    ></g>\n    <g id=\"SVGRepo_iconCarrier\">\n      <path\n        d=\"M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z\"\n      ></path>\n    </g>\n  </svg>\n  <span class=\"button-text\">\n    <span class=\"top-text\">Download on the</span>\n    <span class=\"bottom-text\">App Store</span>\n  </span>\n</button>\n\n<style>\n/* Tags: icon, button, dark, download, hover effect, play-store */\n.appstore-button {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 10px 12px;\n  border: 3px solid rgb(189, 189, 189);\n  background-color: rgb(15, 15, 15);\n  border-radius: 15px;\n  gap: 5px;\n  cursor: pointer;\n  transition: all 0.3s;\n  box-shadow: 0px 0px 100px -30px rgb(255, 255, 255);\n}\n.appstore-button svg {\n  width: 45px;\n}\n.appstore-button svg path {\n  fill: white;\n  transition: all 0.3s;\n}\n.button-text {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: center;\n  color: white;\n  transition: all 0.3s;\n}\n.top-text {\n  font-size: 13px;\n  font-weight: 600;\n}\n.bottom-text {\n  font-size: 24px;\n  font-weight: 600;\n}\n\n.appstore-button:hover {\n  background-color: rgb(236, 236, 236);\n  border: 3px solid rgb(138, 138, 138);\n}\n.appstore-button:hover .button-text {\n  color: black;\n}\n.appstore-button:hover svg path {\n  fill: black;\n}\n\n</style>"
+  }
+}
+```
+
+## Selected Component Reference
+- Category: Buttons
+- Component: vinodjangid07_helpless-starfish-55.html
+- Path: C:\Users\User\Documents\GitHub\Axon\x-components\Buttons\vinodjangid07_helpless-starfish-55.html
+
+Use the selected component HTML below as the primary design reference for the new UI. Keep the structure and styling assumptions in mind while rewriting the requested files.
+```html
+<button class="appstore-button">
+  <svg viewBox="0 0 24 24">
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g
+      id="SVGRepo_tracerCarrier"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    ></g>
+    <g id="SVGRepo_iconCarrier">
+      <path
+        d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"
+      ></path>
+    </g>
+  </svg>
+  <span class="button-text">
+    <span class="top-text">Download on the</span>
+    <span class="bottom-text">App Store</span>
+  </span>
+</button>
+
+<style>
+/* Tags: icon, button, dark, download, hover effect, play-store */
+.appstore-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  border: 3px solid rgb(189, 189, 189);
+  background-color: rgb(15, 15, 15);
+  border-radius: 15px;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0px 0px 100px -30px rgb(255, 255, 255);
+}
+.appstore-button svg {
+  width: 45px;
+}
+.appstore-button svg path {
+  fill: white;
+  transition: all 0.3s;
+}
+.button-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s;
+}
+.top-text {
+  font-size: 13px;
+  font-weight: 600;
+}
+.bottom-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.appstore-button:hover {
+  background-color: rgb(236, 236, 236);
+  border: 3px solid rgb(138, 138, 138);
+}
+.appstore-button:hover .button-text {
+  color: black;
+}
+.appstore-button:hover svg path {
+  fill: black;
+}
+
+</style>
+```
+
+## Your Task
+Completely redesign the UI by rewriting these three files from scratch:
+- `src/App.tsx`
+- `src/App.css`
+- `src/index.css`
+
+## Rules for App.tsx
+1. Keep ALL existing imports:
+   - `import { useState, useEffect, useRef } from 'react'`
+   - `import reactLogo from './assets/react.svg'`
+   - `import viteLogo from './assets/vite.svg'`
+   - `import heroImg from './assets/hero.png'`
+   - `import './App.css'`
+2. Keep the `CounterNum` component (useRef + useEffect animation)
+3. Keep the counter button with `onClick` / `setCount` handler
+4. Keep the Documentation section (Vite/React links)
+5. Keep the Social section (GitHub/Discord/X/Bluesky links + SVG icons)
+6. Do NOT use CSS custom properties (`--var-name`) in inline `style` attributes — TypeScript will error
+
+## Rules for CSS
+- Apply the palette, typography, layout structure, animation level, and component text from the JSON above
+- Use Google Fonts via `@import` in `index.css`
+- Match the theme mood: solid, robust, structured, clear
+
+## Mandatory Requirements (apply to every build)
+
+### 1. Responsive — Mobile First
+- Design for mobile (320px) first, scale up with `min-width` breakpoints
+- Touch targets minimum 44×44px
+- No horizontal scroll on any screen size
+- Fluid typography: use `clamp()` or responsive units (`rem`, `%`, `vw`)
+- Images and layout must reflow gracefully at 320px, 768px, 1280px
+
+### 2. Footer Copyright
+- The page MUST have a `<footer>` at the bottom
+- Footer text: `© 2026 Microtronic. All rights reserved.`
+- Style the footer to match the theme palette (muted text on surface background)
+
+### 3. SEO Standards
+- `index.html` must have a descriptive `<title>`: `SOLID FOUNDATION — Concrete Canvas | Microtronic`
+- Add `<meta name="description">` with the subtitle: `A robust and clear design framework.`
+- Add `<meta name="keywords">` relevant to the theme
+- Add Open Graph tags: `og:title`, `og:description`, `og:type` (website)
+- All images must have meaningful `alt` attributes
+- Use semantic HTML: `<header>`, `<main>`, `<section>`, `<footer>`, `<nav>` where appropriate
+- Heading hierarchy: one `<h1>` (hero), `<h2>` for sections — no skipping levels
+
+## After saving all files
+1. Update `version` in `package.json` to `1.25.0`
+2. Update `<title>` and meta tags in `index.html` as specified above
+3. Run: `pnpm build`
+4. If build succeeds → write `done` to `scripts/build-done.flag`
+5. If build fails with TypeScript errors → fix them and rebuild

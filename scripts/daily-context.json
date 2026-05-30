@@ -1,0 +1,47 @@
+{
+  "day": 25,
+  "date": "2026-05-30",
+  "version": "1.25.0",
+  "project_name": "x-template-025",
+  "theme": {
+    "name": "Concrete Canvas",
+    "style": "Brutalist, Material-Dark, Swiss Design",
+    "mood": "solid, robust, structured, clear"
+  },
+  "palette": {
+    "background": "#1A1A1A",
+    "surface": "#2C2C2C",
+    "primary": "#4A6D7C",
+    "accent": "#D9A273",
+    "text": "#E0E0E0",
+    "muted": "#808080"
+  },
+  "typography": {
+    "heading": "Oswald",
+    "body": "Inter",
+    "size": "medium"
+  },
+  "layout": {
+    "structure": "grid",
+    "density": "spacious",
+    "border_style": "solid 2px #808080"
+  },
+  "animation": {
+    "level": "minimal",
+    "style": "subtle fade and slide"
+  },
+  "components": {
+    "hero_text": "SOLID FOUNDATION",
+    "subtitle": "A robust and clear design framework.",
+    "button_label": "VIEW STRUCTURE",
+    "badge_text": "NEW STANDARD"
+  },
+  "commit_message": "feat: UI Day 25 — Concrete Canvas",
+  "source": "gemini-key1",
+  "selected_component": {
+    "category": "Buttons",
+    "component": "suda-code_loud-badger-55.html",
+    "path": "C:\\Users\\User\\Documents\\GitHub\\Axon\\x-components\\Buttons\\suda-code_loud-badger-55.html",
+    "content": "<button>\n    Button\n</button>\n<style>\n/* code - Tags: blue, button, hover */\nbutton {\n  padding: 12.5px 30px;\n  border: 0;\n  border-radius: 100px;\n  background-color: #2ba8fb;\n  color: #ffffff;\n  font-weight: Bold;\n  transition: all 0.5s;\n  -webkit-transition: all 0.5s;\n}\n\nbutton:hover {\n  background-color: #6fc5ff;\n  box-shadow: 0 0 20px #6fc5ff50;\n  transform: scale(1.1);\n}\n\nbutton:active {\n  background-color: #3d94cf;\n  transition: all 0.25s;\n  -webkit-transition: all 0.25s;\n  box-shadow: none;\n  transform: scale(0.98);\n}\n</style>"
+  }
+}

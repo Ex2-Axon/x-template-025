@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* ── Palette: Concrete Canvas ── */
+  --bg:       #1A1A1A;
+  --surface:  #2C2C2C;
+  --primary:  #4A6D7C;
+  --accent:   #D9A273;
+  --text:     #E0E0E0;
+  --muted:    #808080;
+
+  /* ── Derived ── */
+  --border:        2px solid #808080;
+  --border-thin:   1px solid #808080;
+  --border-accent: 2px solid #D9A273;
+  --border-primary: 2px solid #4A6D7C;
+
+  --surface-hover: #363636;
+  --text-dim:      #555555;
+
+  /* ── Typography ── */
+  --heading: 'Oswald', system-ui, sans-serif;
+  --body:    'Inter', system-ui, sans-serif;
+
+  font: 16px/1.6 var(--body);
+  color-scheme: dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--muted); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+/* ─── Reset ─── */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* ─── Body ─── */
+body {
+  margin: 0;
+  background: var(--bg);
+  overflow-x: hidden;
+}
+
+/* ─── Root container ─── */
+#root {
+  position: relative;
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  border-inline: var(--border-thin);
+  border-color: #333;
+}
+
+/* ─── Typography ─── */
+h1, h2, h3 {
+  font-family: var(--heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0;
+  color: var(--text);
+}
+
+h1 {
+  font-size: clamp(2.4rem, 7vw, 5rem);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.05;
+  color: var(--text);
+}
+
+h2 {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  letter-spacing: 0.12em;
+  color: var(--text);
+}
+
+p {
+  margin: 0;
+  font-family: var(--body);
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85em;
+  padding: 2px 6px;
+  background: var(--surface);
+  border: var(--border-thin);
+  color: var(--accent);
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
